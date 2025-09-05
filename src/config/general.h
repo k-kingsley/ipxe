@@ -152,6 +152,7 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
 #define SHELL_CMD		/* Shell command */
 //#define NSLOOKUP_CMD		/* DNS resolving command */
 //#define TIME_CMD		/* Time commands */
+#define IPMI_CMD		/* IPMI management commands */
 //#define DIGEST_CMD		/* Image crypto digest commands */
 //#define LOTEST_CMD		/* Loopback testing commands */
 //#define VLAN_CMD		/* VLAN commands */

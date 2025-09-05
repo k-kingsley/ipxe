@@ -88,6 +88,9 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
 #define ERRFILE_efi_table	       ( ERRFILE_CORE | 0x00300000 )
 #define ERRFILE_efi_connect	       ( ERRFILE_CORE | 0x00310000 )
 #define ERRFILE_gpio		       ( ERRFILE_CORE | 0x00320000 )
+#define ERRFILE_ipmi		       ( ERRFILE_CORE | 0x00330000 )
+#define ERRFILE_ipmi_lan	       ( ERRFILE_CORE | 0x00340000 )
+#define ERRFILE_ipmi_dcmi	       ( ERRFILE_CORE | 0x00350000 )
 
 #define ERRFILE_eisa		     ( ERRFILE_DRIVER | 0x00000000 )
 #define ERRFILE_isa		     ( ERRFILE_DRIVER | 0x00010000 )
@@ -442,6 +445,7 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
 #define ERRFILE_usb_settings	      ( ERRFILE_OTHER | 0x00650000 )
 #define ERRFILE_weierstrass	      ( ERRFILE_OTHER | 0x00660000 )
 #define ERRFILE_efi_cacert	      ( ERRFILE_OTHER | 0x00670000 )
+#define ERRFILE_ipmi_cmd	      ( ERRFILE_OTHER | 0x00680000 )
 
 /** @} */
 
