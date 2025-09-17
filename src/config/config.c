@@ -281,6 +281,10 @@ REQUIRE_OBJECT ( neighbour_cmd );
 #ifdef PING_CMD
 REQUIRE_OBJECT ( ping_cmd );
 #endif
+#ifdef IPMI_CMD
+REQUIRE_OBJECT ( ipmi_cmd );
+REQUIRE_OBJECT ( ipmi_settings );
+#endif
 #ifdef CONSOLE_CMD
 REQUIRE_OBJECT ( console_cmd );
 #endif
